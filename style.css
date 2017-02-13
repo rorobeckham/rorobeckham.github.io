@@ -1,0 +1,28 @@
+body,html {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	padding: 0%;
+	background: aqua;
+}
+img{
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+}
+p{
+	font-size: italic;
+	font-family: verdana;
+}
+header{
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+footer{
+	position: fixed;
+	bottom:0px;
+}
